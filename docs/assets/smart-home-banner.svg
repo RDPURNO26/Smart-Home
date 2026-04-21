@@ -1,0 +1,65 @@
+<![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1020;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff" />
+      <stop offset="50%" style="stop-color:#a8b4ff" />
+      <stop offset="100%" style="stop-color:#4fc3f7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c6af7" />
+      <stop offset="100%" style="stop-color:#4fc3f7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="16"/>
+
+  <!-- Subtle glow -->
+  <ellipse cx="400" cy="80" rx="300" ry="100" fill="#7c6af7" opacity="0.06"/>
+
+  <!-- Border -->
+  <rect width="798" height="198" x="1" y="1" fill="none" stroke="#ffffff" stroke-opacity="0.08" rx="15"/>
+
+  <!-- House icon -->
+  <g transform="translate(160, 55)">
+    <!-- House body -->
+    <rect x="12" y="35" width="56" height="45" rx="3" fill="none" stroke="#7c6af7" stroke-width="2" opacity="0.8"/>
+    <!-- Roof -->
+    <path d="M5 38 L40 10 L75 38" fill="none" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Door -->
+    <rect x="30" y="52" width="18" height="28" rx="2" fill="none" stroke="#66bb6a" stroke-width="1.5" opacity="0.7"/>
+    <!-- Window -->
+    <rect x="17" y="43" width="10" height="10" rx="1" fill="#ffd54f" opacity="0.3"/>
+    <!-- WiFi waves -->
+    <path d="M58 25 Q65 20 72 25" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.5"/>
+    <path d="M55 30 Q65 22 75 30" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.35"/>
+    <path d="M52 35 Q65 24 78 35" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.2"/>
+  </g>
+
+  <!-- Title -->
+  <text x="280" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="36" font-weight="700" fill="url(#textGrad)">Smart Home IoT</text>
+
+  <!-- Subtitle -->
+  <text x="280" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8a87a0">ESP8266 + Arduino · Sinric Pro · Alexa & Google Home</text>
+
+  <!-- Accent line -->
+  <rect x="280" y="125" width="120" height="2" rx="1" fill="url(#accentGrad)" opacity="0.6"/>
+
+  <!-- Tags -->
+  <g transform="translate(280, 145)">
+    <rect width="90" height="22" rx="11" fill="#7c6af7" opacity="0.15" stroke="#7c6af7" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="45" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#7c6af7" text-anchor="middle" font-weight="600">Voice Control</text>
+
+    <rect x="100" width="105" height="22" rx="11" fill="#ff7043" opacity="0.15" stroke="#ff7043" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="152" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#ff7043" text-anchor="middle" font-weight="600">Safety Systems</text>
+
+    <rect x="215" width="110" height="22" rx="11" fill="#66bb6a" opacity="0.15" stroke="#66bb6a" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="270" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#66bb6a" text-anchor="middle" font-weight="600">Offline Capable</text>
+  </g>
+</svg>
+]]>

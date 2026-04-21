@@ -1,0 +1,42 @@
+<![CDATA[# ========================
+# Credentials & Secrets
+# ========================
+secrets.h
+thingProperties.h
+
+# ========================
+# Arduino Build Artifacts
+# ========================
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+build/
+.build/
+
+# ========================
+# IDE & Editor Files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.theia/
+
+# ========================
+# OS Generated Files
+# ========================
+Thumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# ========================
+# Temporary Files
+# ========================
+*.tmp
+*.bak
+*.log
+]]>
